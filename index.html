@@ -1,12 +1,237 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>layout</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css"
+    integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./css5/footer.css">
+  <link rel="stylesheet" href="./css5/main.css">
+  <link rel="stylesheet" href="./css5/reveal.css">
 </head>
+
 <body>
-  <h1>hey there</h1>
+
+  <nav class="fixed-top navbar navbar-expand-lg bg-dark navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="22222.png" alt="logo" width="40%" height="40%" style="border: 10x solid white; border-radius: 50px;">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <form class="d-flex offset-5" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item offset-5">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../bootstrapform.html">Login</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <div style="width: 100%; height: 630px; margin-top: 60px;">
+    <div class="carousal_bg"></div>
+  </div>
+
+
+
+  <div class="mainblock mx-2">
+
+
+    <div class="container">
+
+
+
+      <div class="card mb-5 left reveal bg-dark bg-opacity-50 text-white revealXL mt-5" style="width: 70%;">
+
+        <div id="first" class="row g-0 ">
+          <div class="col-md-4">
+            <img src="image 100.jpg" class="img-fluid rounded-start fullHeight" alt="Lubricant" height="100%">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h3 class="card-title ">Choose your favorite Design and Color</h3>
+              <p class="card-text ">We provide a smooth and beautiful color and designs of your
+                own choice
+                and we will paint your
+                walls according to your Wish</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="second" class="bg-dark bg-opacity-50 text-white card mb-5 right reveal revealXR" style="width: 70%;">
+        <div class="row g-0">
+
+          <div class="col-md-8">
+            <div class="card-body">
+              <h3 class="card-title">Variety of colors and schemes</h3>
+              <p class="card-text">There is a custom range of color sets are available that you want
+                to
+                apply on walls in different parts of house.</p>
+
+            </div>
+          </div>
+          <div class="col-md-4">
+            <img src="image 101.jpg" class="img-fluid rounded-start fullHeight" alt="Lubricant" height="100%">
+          </div>
+        </div>
+      </div>
+
+
+
+      <div id="third" class="bg-dark bg-opacity-50 text-white card mb-5 left reveal revealXL" style="width: 70%;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="image 102.jpg" class="img-fluid rounded-start fullHeight" alt="Lubricant" height="110%">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h3 class="card-title">Exterior Wall Painting</h3>
+              <p class="card-text">If you want to paint your house from outside you can also you our
+                services to make your house look better with variety of colors available.</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+      <div id="fourth" class="bg-dark bg-opacity-50 text-white card mb-5 right reveal revealXR" style="width: 70%;">
+        <div class="row g-0">
+
+          <div class="col-md-8">
+            <div class="card-body">
+              <h3 class="card-title">Resham Wall</h3>
+              <p class="card-text">The graffy resham wall will add a new attractive look on your walls
+                as
+                it is very soft want gives a delightful look into wall.</p>
+
+            </div>
+          </div>
+          <div class="col-md-4">
+            <img src="roberto-nickson-tleCJiDOri0-unsplash.jpg" class="img-fluid rounded-start fullHeight"
+              alt="Lubricant" height="100%">
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+
+
+  <footer class="site-footer bg-dark mt-3" style="border: 1px solid white; border-radius: 25px;">
+    <div class="container">
+      <div class="row">
+        <div class=" col-md-4 mt-5">
+          <h4 style="color: azure;">About:</h4>
+          <p class="justify-content" style="color: azure;">
+            All kind of classical furniture manufacture here.
+          </p>
+        </div>
+        <div class="col-md-4 mt-5">
+          <h4 class="mr-5" style="color: azure;">Products:</h4>
+          <ul class="footer-links" style="color: aliceblue;">
+            <li><a href="#" style="color: aqua;">Beds set</a></li>
+            <li><a href="#" style="color: aqua;">Sofa set</a></li>
+            <li><a href="#" style="color: aqua;">Armchair set</a></li>
+            <li><a href="#" style="color: aqua;">Cabenets</a></li>
+            <li><a href="#" style="color: aqua;">All type of furnitures</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 mt-5">
+          <h4 class="mr-5" style="color: azure;">Categories:</h4>
+          <ul class="footer-links" style="color: aliceblue;">
+            <li><a href="#" style="color: aqua;">Ittalic Furniture</a></li>
+            <li><a href="#" style="color: aqua;">British Furniture</a></li>
+            <li><a href="#" style="color: aqua;">Victorian Furniture</a></li>
+            <li><a href="#" style="color: aqua;">Modulary Furniture</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr style="color: aliceblue;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mt-5 ">
+            <p class="copyright-text" style="color: azure;">Copyrights &copy; All Rights Reserved</p>
+          </div>
+          <div class="col-md-6 mt-5">
+            <h4 style="color: azure;">Follow Us:</h4>
+            <ul class="social-icons" style="color: azure;">
+              <li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a class="dribble" href="#"><i class="fab fa-instagram"></i></a></li>
+              <li><a class="linkedin" href="#"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="footer">
+          <p class="float-end">
+            <a href="#" style="color: aqua;">Back to top</a>
+          </p>
+          <p style="color: azure;">
+            "@ 2017-2023 Company,Inc ..."
+            <a href="#" style="color: aqua;">Privacy</a>
+            "."
+            <a href="#" style="color: aqua;">Terms</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </footer>
+
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.bundle.min.js"
+    integrity="sha512-i9cEfJwUwViEPFKdC1enz4ZRGBj8YQo6QByFTF92YXHi7waCqyexvRD75S5NVTsSiTv7rKWqG9Y5eFxmRsOn0A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./js5/reveal.js"></script>
 </body>
+
 </html>
